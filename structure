@@ -1,0 +1,20 @@
+conversational_ai_agent/
+├── backend/
+│   ├── main.py                # FastAPI entry point
+│   ├── agent.py               # LangGraph agent logic
+│   ├── calendar_utils.py      # Google Calendar API integrations
+│   ├── config.py              # API keys, scopes, calendar ID
+│   └── models.py              # Pydantic schemas (if used)
+│
+├── frontend/
+│   ├── app.py                 # Streamlit main interface
+│   └── firebase_config.py     # Firebase config dictionary
+│
+├── credentials/
+│   └── credentials.json       # Google OAuth 2.0 credentials
+│
+├── token.pickle               # Cached token (after first OAuth)
+├── requirements.txt           # All project dependencies
+├── .env                       # Environment variables (API keys, etc.)
+├── .gitignore                 # Ignore secrets and system files
+└── README.md                  # Setup guide, features, deployment steps
